@@ -8,20 +8,20 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 const Thumbnail = forwardRef(({ result }, ref) => {
   const [showModal, setShowModal] = useState(false)
-  useEffect(() => {
-    const html = document.getElementsByTagName('html')[0]
+  // useEffect(() => {
+  //   const html = document.getElementsByTagName('html')[0]
 
-    if (showModal) {
-      html.classList.add('lock-scroll')
-    } else {
-      html.classList.remove('lock-scroll')
-    }
-    return () => {
-      html.classList.remove('lock-scroll')
-    }
-  }, [showModal])
+  //   if (showModal) {
+  //     html.classList.add('lock-scroll')
+  //   } else {
+  //     html.classList.remove('lock-scroll')
+  //   }
+  //   return () => {
+  //     html.classList.remove('lock-scroll')
+  //   }
+  // }, [showModal])
 
-  console.log(result)
+  // console.log(result)
 
   return (
     <>

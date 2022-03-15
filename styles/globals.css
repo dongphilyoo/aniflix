@@ -10,12 +10,12 @@
   }
 }
 
-html.lock-scroll {
+/* html.lock-scroll {
   position: fixed;
   overflow-y: scroll;
   width: 100%;
-  /* height: -webkit-fill-available; */
-}
+  height: -webkit-fill-available;
+} */
 
 body {
   overscroll-behavior: none;
