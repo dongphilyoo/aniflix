@@ -14,8 +14,12 @@
   position: fixed;
   overflow-y: scroll;
   width: 100%;
+  height: -webkit-fill-available;
 } */
 
 body {
   overscroll-behavior: none;
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
 }
