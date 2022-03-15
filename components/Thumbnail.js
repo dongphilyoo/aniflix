@@ -7,14 +7,6 @@ import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
 const Thumbnail = forwardRef(({ result }, ref) => {
-  const YTParams = {
-    height: '390',
-    width: '640',
-    playerVars: {
-      autoplay: 0,
-    },
-  }
-
   const [showModal, setShowModal] = useState(false)
   useEffect(() => {
     const html = document.getElementsByTagName('html')[0]
