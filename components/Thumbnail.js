@@ -32,7 +32,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
       >
         <Image
           layout="responsive"
-          src={result.images?.webp?.large_image_url}
+          src={result.images?.jpg?.large_image_url}
           alt={result.title}
           height={1200}
           width={900}
