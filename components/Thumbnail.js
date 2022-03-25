@@ -44,7 +44,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
               ❤️ {result.favorites}
             </span>
             <div>
-              <span className="outline rounded-sm mr-2 px-1 text-sm">
+              <span className="outline outline-2 rounded-sm mr-2 px-1 text-sm">
                 {result.type}
               </span>
               <span>{result.aired?.from.split('T')[0]}</span>
